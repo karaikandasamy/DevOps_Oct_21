@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <body>
+ <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}"> -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <header>
+
+<!---
+  <a href="#" class="w3-bar-item w3-button w3-right">London</a>
+  <a href="#" class="w3-bar-item w3-button w3-right">Paris</a>
+  <a href="#" class="w3-bar-item w3-button w3-right">Tokyo</a>
+</div>
+-->
+
+
+<div class="w3-bar w3-teal">
+  <button class="w3-btn w3-round-xlarge"> <div class="w3-bar-item"><a href="{{ url_for('index') }}">Online Education Redefined</a></div> </button>
+  <button class="w3-btn w3-round-xlarge"> <div class="w3-bar-item">   </div> </button>
+  <button class="w3-btn w3-round-xlarge"> <div class="w3-bar-item">   </div> </button>
+  <button class="w3-btn w3-round-xlarge"> <div class="w3-bar-item">   </div> </button>
+  <button class="w3-btn w3-round-xlarge"> <div class="w3-bar-item">   </div> </button>
+  <button class="w3-btn w3-round-xlarge"> <div class="w3-bar-item">   </div> </button>
+  <button class="w3-btn w3-round-xlarge"> <div class="w3-bar-item">   </div> </button>
+  <button class="w3-btn w3-round-xlarge"> <div class="w3-bar-item"><a href="{{ url_for('institute') }}">Institutions</a></div> </button>
+  <button class="w3-btn w3-round-xlarge"><div class="w3-bar-item"><a href="{{ url_for('courses') }}">Courses</a></div> </button>
+  <button class="w3-btn w3-round-xlarge" w3-right><div class="w3-bar-item"><a href="{{ url_for('student') }}">Students</a></div> </button>
+  <button class="w3-btn w3-round-xlarge" w3-right> <div class="w3-bar-item"><a href="{{ url_for('faculty') }}">Faculty</a></div> </button>
+</div>
+   
+
+    <div class="w3-container">
+    <h2> Partcipating Institutes </h2>
+     Through this Online learning  platform, we have colloborated with world renowned educational
+     Instituitions to bring their expertise to the learning aspirants across the globe. 
+    </div>
+    <div class="w3-container">
+    <h2> Engineering Instituitions</h2>
+        <li>MIT </li>
+        <li>Stanford University </li>
+        <li>IIT Bombay</li>
+        <li>IIT Chennai</li>
+        <li>IIT Kanpur</li>
+        <li>IIT Kharagpur</li>
+        <li>IIT Delhi</li>
+    </div>
+<div class="w3-container">
+<h2> Career-relevant Programs </h2>
+  <li>Full Stack Programming</li>
+  <li>Data Science Programming</li>
+  <li> Block Chain Programming</li>
+  <li> Quantum Computing</li>
+</div>
+    
+    <footer class="w3-container w3-teal">
+  <div class="w3-bar w3-teal">
+  <button class="w3-btn w3-round-xlarge"> <div class="w3-bar-item">Follow Us</div> </button>
+  <button class="w3-btn w3-round-xlarge"> <div class="w3-bar-item">   </div> </button>
+  <button class="w3-btn w3-round-xlarge"><div class="w3-bar-item"><a href="{{ url_for('testimony') }}">Sucess Stories</a></div> </button>
+  <button class="w3-btn w3-round-xlarge"><div class="w3-bar-item"><a href="{{ url_for('career') }}">Career</a></div> </button>
+  <button class="w3-btn w3-round-xlarge"> <div class="w3-bar-item"><a href="{{ url_for('about') }}">About US</a></div> </button>
+  <button class="w3-btn w3-round-xlarge"><div class="w3-bar-item"><a href="{{ url_for('contact') }}">Contact Us</a></div> </button>
+  <button class="w3-btn w3-round-xlarge" w3-right><div class="w3-bar-item"><a href="{{ url_for('twitter') }}">Twitter</a></div> </button>
+  <button class="w3-btn w3-round-xlarge" w3-right> <div class="w3-bar-item"><a href="{{ url_for('facebook') }}">Facebook</a></div> </button>
+  <button class="w3-btn w3-round-xlarge" w3-right> <div class="w3-bar-item"><a href="{{ url_for('instagram') }}">Instagram</a></div> </button>
+</div>
+</footer>
+
+  </body>
+</html>
